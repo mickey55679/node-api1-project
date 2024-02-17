@@ -5,6 +5,10 @@ const User = require('./users/model')
 const server = express()
 server.use(express.json())
 
+server.delete('/api/users/:id', (req, res) => {
+    
+})
+
 
 server.post('/api/users', (req, res) => {
     const user = req.body;
