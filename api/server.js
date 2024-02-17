@@ -1,5 +1,5 @@
 // BUILD YOUR SERVER HERE
-// global obejcet and whatever we set it to be becomes required in other modules 
+// global obeject and whatever we set it to be becomes required in other modules 
 const express = require('express')
 
 const server = express()
